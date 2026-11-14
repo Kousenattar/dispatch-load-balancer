@@ -1,0 +1,8 @@
+package com.FreightFox.dispatch_load_balancer.repository;
+
+import com.FreightFox.dispatch_load_balancer.entity.Vehicle;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VehicleRepository extends JpaRepository<Vehicle, String> {
+
+}
